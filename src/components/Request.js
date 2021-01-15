@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiKey = "802927829ed548dba3b6d168ab880000";
+const apiKey = "";
 const urlToFetch = "https://api.weatherbit.io/v2.0/forecast/daily?city=";
 
 export const request = async (input) => {
