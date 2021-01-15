@@ -9,7 +9,7 @@ const Weather = () => {
         request(input).then((response) => {
             setOutput(response);
         });
-    }, [input]);
+    }, [input,setOutput]);
 
     return (
         <container className="forecastsContainer">
